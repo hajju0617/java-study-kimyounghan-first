@@ -10,7 +10,7 @@ public class ScannerEx2 {
         System.out.print("하나의 정수를 입력하세요. : ");
         int num = scanner.nextInt();
 
-        String str = "";
+        String str;
         if (num == 0) {
             str = "0";
         } else if (num % 2 == 0) {
