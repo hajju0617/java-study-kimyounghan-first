@@ -25,12 +25,15 @@ public class ScannerWhileEx4 {
 
                 totalCost += price * quantity;
                 System.out.println("상품명 : " + product + ", 가격 : " + price + ", 수량 : " + quantity + ", 합계 : " + price * quantity);
+
             } else if (option == 2) {
                 System.out.println("총 비용 : " + totalCost);
                 totalCost = 0;      // option == 2는 결제 이므로 총 비용을 다시 0으로 초기화
+
             } else if (option == 3) {
                 System.out.println("프로그램을 종료합니다.");
                 break;
+
             } else {
                 System.out.println("올바른 옵션을 선택해주세요");
             }
