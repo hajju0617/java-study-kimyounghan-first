@@ -15,6 +15,8 @@ public class Array1Ref2 {
         students[4] = 50;
 //        students[5] = 40;   // ArrayIndexOutOfBoundsException 발생
 
+//        students = new int[]{90, 80, 70, 60, 50}; // 5 ~ 15번행을 1줄로 줄이기 : 배열 생성과 초기화
+
         System.out.println("students.length = " + students.length);
         for (int i = 0; i < students.length; i++) {
             System.out.println("학생" + (i + 1) + " 점수 : " + students[i]);

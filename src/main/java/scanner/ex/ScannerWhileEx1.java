@@ -18,10 +18,8 @@ public class ScannerWhileEx1 {
             System.out.print("나이를 입력하세요. : ");
             int age = input.nextInt();  // 10(Enter) -> 10\n -> nextInt는 10만 가져가고 \n은 남아있는 상태로 nextLine이 읽어버려서
                                         // 코드가 원하는대로 실행되지 않음 따라서 nextLine() 을 한번 써서 남은 \n을 소거해줘야함
-            input.nextLine();
+//            input.nextLine();
             System.out.println("입력한 이름: " + name + ", 나이 : " + age);
-
         }
-
     }
 }

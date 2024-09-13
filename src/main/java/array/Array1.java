@@ -13,6 +13,5 @@ public class Array1 {
         System.out.println("student3 = " + student3);
         System.out.println("student4 = " + student4);
         System.out.println("student5 = " + student5);
-
     }
 }
