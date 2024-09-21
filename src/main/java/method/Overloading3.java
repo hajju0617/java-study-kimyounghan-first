@@ -14,6 +14,5 @@ public class Overloading3 {
     public static double add(double a, double b) {
         System.out.println("2번 호출");
         return a + b;
-
     }
 }
